@@ -4,7 +4,7 @@ It's a list of to do things
 Once you save the Files in a folder and upload them into Visual Studio, you should be able to run the program with "F5".
 
 Create a file on your desktop named "ToDoList.txt" and copy the path.
-OR copy the location of the "ToDoList.txt" file you get from the repository
+OR copy the location of the "ToDoList.txt" file you get from the repository. 
 Place the path of the file on line 60 & line 126 between the quotation marks in ToDoListHandler.cs.
 For example
 C:\Users\User\Desktop\ToDoList.txt
