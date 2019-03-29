@@ -8,8 +8,8 @@ OR copy the location of the "ToDoList.txt" file you get from the repository.
 Place the path of the file on line 60 & line 126 between the quotation marks in ToDoListHandler.cs.
 For example
 C:\Users\User\Desktop\ToDoList.txt
-becomes<br>
-string path = "C:\\Users\\User\\Desktop\\ToDoList.txt";
+becomes:<br>
+string path = "C:\\Users\\User\\Desktop\\ToDoList.txt";<br>
 (Note the double slashes - this is correct).
 
 This program will allow you to write notes, view notes, and remove notes from your ToDoList.txt file, and it adds an ID number to each note for removal purposes.
