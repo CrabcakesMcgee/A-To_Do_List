@@ -8,7 +8,7 @@ OR copy the location of the "ToDoList.txt" file you get from the repository.
 Place the path of the file on line 60 & line 126 between the quotation marks in ToDoListHandler.cs.
 For example
 C:\Users\User\Desktop\ToDoList.txt
-becomes
+becomes<br>
 string path = "C:\\Users\\User\\Desktop\\ToDoList.txt";
 (Note the double slashes - this is correct).
 
