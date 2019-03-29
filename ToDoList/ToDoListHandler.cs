@@ -105,8 +105,7 @@ namespace ToDoList5._2
                 
                 items.Add(new Item() { ItemName = inputNote, ItemId = num++ });
 
-                // Write out the parts in the list. This will call the overridden ToString method
-                // in the Part class.
+                // This writes out the added items
                 foreach (Item aItem in items)
                 {
                     Console.WriteLine(aItem);
@@ -120,7 +119,7 @@ namespace ToDoList5._2
                 }
             }
         }
-
+        // Saves list to txt file
         public static void SaveList(List<string> ToDoList)
         {
             string path = "C:\\Users\\User\\Desktop\\ToDoList.txt";
@@ -134,12 +133,11 @@ namespace ToDoList5._2
                     {
                         foreach (var item in ToDoList)
                         {
-                            Console.WriteLine(item);
+                            
                             writer.WriteLine(item);
-                            Console.WriteLine("File Written: " + path);
                         }
                     }
-                    // File.WriteAllText(path, ToDoList);
+                    //Confirms file was saved
                     Console.WriteLine("File Written: " + path);
                 }
                 catch (Exception error)
