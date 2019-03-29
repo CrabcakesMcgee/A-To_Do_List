@@ -1,5 +1,7 @@
 # A-To_Do_List
 It's a list of to do things
+Once you save the Files in a folder and upload them into Visual Studio, you should be able to run the program with "F5".
+
 Create a file on your desktop named "ToDoList.txt" and copy the path.
 OR copy the location of the "ToDoList.txt" file you get from the repository
 Place the path of the file on line 60 & line 126 between the quotation marks in ToDoListHandler.cs.
@@ -7,8 +9,9 @@ For example
 C:\Users\User\Desktop\ToDoList.txt
 becomes
 string path = "C:\\Users\\User\\Desktop\\ToDoList.txt";
+(Note the double slashes - this is correct).
 
-This program will allow you to write notes, view notes, remove notes from your ToDoList.txt file.
+This program will allow you to write notes, view notes, and remove notes from your ToDoList.txt file, and it adds an ID number to each note for removal purposes.
 
 When you intially load up the program and fix the string path in ToDoListHandler.cs, you will have the following options:
  Options
