@@ -20,11 +20,15 @@ When you intially load up the program and fix the string path in ToDoListHandler
  2) Add
  3) Save
  4) Remove
+ <br>
  To select "View", type "1"; to select "Add", type "2"; etc.
  
  "View" will pull up notes in the "ToDoList.txt" file, and notes you added though the "Add" option.
+ <br>
  "Add" allows you to add notes to the list it pulls from the text file. Type "exit" to finish adding(it's not case sensitive).
  Currently, notes are appended at the end of the list, so you cannot type a ToDo item, and place it at the beginning of the file.
+ <br>
  "Save" will write ALL notes to the "ToDoList.txt" file.
+ <br>
  "Remove" pulls up all notes in order with an ID number. Input ONLY the ID number to remove the note.
  
