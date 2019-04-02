@@ -4,7 +4,7 @@ using System.Text;
 using System.IO;
 using System.Linq;
 
-namespace ToDoList5._2
+namespace ToDoList
 {
 	class ToDoListHandler
 	{
